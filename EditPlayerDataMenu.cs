@@ -38,6 +38,7 @@ public class EditPlayerDataMenu : ModGameMenu<ContentBrowser>
             "General", new List<PlayerDataSetting>
             {
                 new PurchasePlayerDataSetting("Unlocked Double Cash", VanillaSprites.DoubleCashModeShop, "btd6_doublecashmode"),
+                new PurchasePlayerDataSetting("Unlocked She-Ra", VanillaSprites.DoubleCashModeShop, "btd6_sheraboosterpack"),
                 new PurchasePlayerDataSetting("Unlocked Fast Track", VanillaSprites.FastTrackModeIcon,
                     "btd6_fasttrackpack",
                     () => GetPlayer().Data.unlockedFastTrack,
